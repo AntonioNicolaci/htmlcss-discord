@@ -5,16 +5,31 @@
 }
 
 header{
-    background-color: rgb(173, 216, 230);
+    background-color: #255EE9;
     text-align: center;
+    color: white;
 }
 
 nav{
     display: inline-flex;
     justify-content: center;
-    background-color: rgb(218, 165, 32);
     margin: 1rem;
     width: 75%;
+}
+
+a:link, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    border-radius: 40px;
+    padding: 0.5em 1em;
+    border: 0;
 }
 
 main{
@@ -35,11 +50,9 @@ footer{
     /*padding: 2em 14em;*/
 }
 
-button{
-
-}
-
 #logo{
+    display: inline-flex;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -52,19 +65,40 @@ button{
 }
 
 #login{
+    display: inline-flex;
+    align-items: center;
     padding: 1rem;
 }
 
 #headerbot{
     display: flex;
     justify-content: center;
-    background-color: rgb(0 0 139);
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5%;
 }
 
-#viola{
-    background-color: rgb(238, 130, 238);
-    padding: 15% 30%;
+#ITPP{
+    width: 40%;
+    padding: 2em 1em;
+    overflow-wrap: break-word;
+    font-size: 30px ;
+}
+
+#ITPP div{
+    margin-top: 40px;
+}
+
+#ITPP .bottonebianco{
+    margin: 20px 10px 0 0;
+}
+
+#bottonenero{
+    background-color: #23272A;
+    color: white;
+    font-size: 20px;
 }
 
 #verde{
@@ -100,6 +134,11 @@ button{
 
 }
 
+.bottonebianco{
+    background-color: white;
+    font-size: 20px;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -126,6 +165,6 @@ button{
     padding: 25em 0;
 }
 
-nav div, #viola, .azzurro, .rosa, #verde, #salmon, #footertop, #footerbot button{
+.azzurro, .rosa, #verde, #salmon, #footertop, #footerbot button{
     border: 3px dotted black;
 }
