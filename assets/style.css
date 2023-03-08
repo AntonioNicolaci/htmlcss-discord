@@ -30,6 +30,7 @@ button{
     border-radius: 40px;
     padding: 0.5em 1em;
     border: 0;
+    font-size: 20px;
 }
 
 main{
@@ -44,9 +45,6 @@ main .container:nth-of-type(even){
 
 h2{
     font-size: 64px;
-}
-
-h2{
     margin-bottom: 2rem
 }
 
@@ -55,7 +53,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     background-color: #23272A;
-    /*padding: 2em 14em;*/
+    color: white;
 }
 
 #logo{
@@ -106,44 +104,67 @@ footer{
 #bottonenero{
     background-color: #23272A;
     color: white;
-    font-size: 20px;
 }
 
-#verde{
-    background-color: rgb(34, 139, 34);
-    padding: 30% 50%;
+#TATC{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+#stella{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+#stella h4{
+    font-size: 30px;
+}
+
+
 
 #footertop{
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    padding-top: 2em;
     margin: 1em 14em;
+    
 }
 
-#salmon{
-    flex-grow: 1.5;
-    background-color:  #F08080;
-    padding: 25em 0;
+#social{
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+#social h4{
+    font-size: 40px;
+}
+
+#social img, #iconesocial{
+    height: 40px;
+    font-size: 30px;
 }
 
 #footerbot{
     display: flex;
     justify-content: center;
     justify-content:  space-between;
-    background-color: #7FFFD4;
+    border-top: 1px solid #7289DA;
     padding: 1em 0;
 }
 
 #barra {
     width: 100%;
     padding: 1em 14em;
-    border-top: 3px solid grey;
 }
 
 .bottonebianco{
     background-color: white;
-    font-size: 20px;
 }
 
 .container{
@@ -168,13 +189,19 @@ footer{
     align-items: center;
 }
 
-.acqua{
-    flex-grow: 1;
-    background-color: #20B2AA;
-    border: 3px dotted white;
-    padding: 25em 0;
+.bottoneazzurro{
+    background-color: #7289DA;
+    color: white;
 }
 
-#verde, #salmon, #footertop, #footerbot button{
-    border: 3px dotted black;
+.risorse{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    font-size: 30px;
+}
+
+.risorse h4, #social h4{
+    color: #7289DA;
 }
